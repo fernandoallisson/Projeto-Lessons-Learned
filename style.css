@@ -152,7 +152,7 @@ body {
     border: 2px solid rgb(0, 99, 0);
     width: 25%;
     float: right;
-    height: 800px;
+    height: 700px;
     box-shadow: 10px 8px 9px rgba(0, 0, 0, 0.767);
     border-radius: 2%;
     text-align: justify;
@@ -164,11 +164,7 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-#video{
-    text-align: center;
-    box-shadow: 10px 8px 9px rgba(0, 0, 0, 0.767);
-    border-radius: 2%;
-}
+
 
 /* ----------------------------[FOTO]----------------------------- */
 
