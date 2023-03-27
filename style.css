@@ -55,6 +55,10 @@ body{
     color: rgb(253, 251, 251);
 }
 
+.buttonsnavegationcontent:hover{
+    text-decoration: underline;
+
+}
 /*----------------------------[MAIN]-----------------------------*/
 
 #conteudoPrincipal{
@@ -63,13 +67,47 @@ body{
     float: left;
 }
 
+/*----------------------------[LISTA - LIÇÕES APRENDIDAS]-----------------------------*/
+
+#licoes{
+    width: 100%;
+    display: flex;
+    padding: 5%;
+}
+
+.licoesAprendidas{
+    width: 50%;
+    padding: 5%;
+    border: 2px solid rgb(0, 99, 0);
+    border-radius: 2%;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+
+}
+#licoes_aprendidas{
+    list-style: decimal;
+}
+#licoes_aprendidas li:hover{
+    background-color: rgb(0, 99, 0);
+}
 
 
 
+.licoesAlmejaveis{
+    width: 50%;
+    padding: 5%;
+    border: 2px solid rgb(0, 99, 0);
+    border-radius: 2%;
+    margin-left: 2px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+#licoes_a_aprender{
+    list-style-type: disc;
+}
+#licoes_a_aprender li:hover{
+    background-color: rgb(0, 99, 0);
+}
 
-
-
-
+/*----------------------------[LISTA - LIÇÕES APRENDIDAS]-----------------------------*/
 
 
 
