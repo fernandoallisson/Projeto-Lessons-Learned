@@ -178,12 +178,15 @@ body {
 /* ----------------------------[TABELA]----------------------------- */
 
 #tabela {
-    margin-top: 25px;
+    clear: both;
+    margin: 25px;
     width: 90%;
     border: 2px solid rgb(0, 99, 0);
-    padding: 5%;
+    padding: 2%;
     text-align: center;
     box-shadow: 10px 8px 9px rgba(0, 0, 0, 0.767);
+    background-color: rgba(0, 128, 0, 0.836);
+    border-radius: 10px ;
 }
 
 #tabela tr td a {
